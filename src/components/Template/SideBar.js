@@ -19,9 +19,10 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Prasoon. I like building things. I am an Engineering undergraduate at IIIT
-        Ranchi and a future Engineer.
+      <p>Hi, I&apos;m Prasoon. I like building things and finding faults in them. I am an
+        Engineering undergraduate at IIIT Ranchi and a future Engineer.
       </p>
+      <p><script type="text/javascript" src="https://tryhackme.com/badge/475414" /></p>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
